@@ -23,7 +23,7 @@ shuffle($myArray);
 
 ```php
 $myArray = ['b'=>2, 'c'=>6, 'a'=>1, 'd'=>4];
-sort($myArray);
+ksort($myArray);
 // $myArray become ['a'=>1, 'b'=>2, 'c'=>6, 'd'=>4]
 ```
 
